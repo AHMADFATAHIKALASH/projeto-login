@@ -38,7 +38,9 @@ section#login{
     
 }
 section#login >div#imagem{
-    background: #5f2c82 url(../imagens/img03.jpg);
+    display: block;
+    background: url(../imagens/img03.jpg);
+   
     height: 290px;
     background-size: cover;
     background-repeat: repeat;
