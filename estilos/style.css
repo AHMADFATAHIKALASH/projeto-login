@@ -24,8 +24,8 @@ main{
 }
 section#login{
     background-color: white;
-    height: 500px;
-    width: 250px;
+    height: 550px;
+    width: 300px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
