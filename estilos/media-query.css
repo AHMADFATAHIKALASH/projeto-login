@@ -32,6 +32,7 @@
         float: left;
         width: 30vw;
         height: 100vh;
+        background-size: cover;
     }
     section> div#formulario>h1{
         font-size: 2.5em;
