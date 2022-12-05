@@ -1,13 +1,31 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width:768px) and (max-width:996px) {
+
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px) {...}*/
+
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}*/
+
+
+@media screen and (min-width:768px){
     body{
       background-image:linear-gradient(to top, #49a09d, #5f2c82) ;
     }
     section#login{
         width: 75vw;
-        height: 43vh;
+        height: 33vh;
         
     }
     section>div#imagem{
@@ -15,15 +33,21 @@
         width: 30vw;
         height: 100vh;
     }
+    section> div#formulario>h1{
+        font-size: 2.5em;
+    }
+    section> div#formulario>p{
+        font-size: 2em;
    
 }
-@media screen and (min-width:996px) {
+}
+@media screen and (min-width:992px) {
     body{
       background-image:linear-gradient(to top, #49a09d, #5f2c82) ;
     }
     section#login{
         width: 90vw;
-        height: 43vh;
+        height: 35.3vh;
         
     }
     section>div#imagem{

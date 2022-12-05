@@ -24,8 +24,8 @@ main{
 }
 section#login{
     background-color: white;
-    height: 450px;
-    width: 250px;
+    height: 550px;
+    width: 300px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -38,10 +38,10 @@ section#login{
     
 }
 section#login >div#imagem{
-    display: block;
-    background: url(../imagens/img03.jpg);
+    
+    background: url(../imagens/img05.jpg);
    
-    height: 290px;
+    height: 180px;
     background-size: cover;
     background-repeat: repeat;
     background-position: center center;
@@ -49,4 +49,13 @@ section#login >div#imagem{
 }
 section#login > div#formulario{
     padding: 10px;
+
 }
+section#login > div#formulario>h1{
+    font-size: 1em;
+
+}
+section#login > div#formulario>p{
+    font-size: .8em;
+}
+
