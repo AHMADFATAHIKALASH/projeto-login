@@ -23,11 +23,12 @@ main{
     width: 100vw;
 }
 section#login{
+    position: absolute;
     background-color: white;
     height: 550px;
     width: 300px;
     border-radius: 20px;
-    position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
