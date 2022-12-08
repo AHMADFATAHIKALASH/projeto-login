@@ -33,23 +33,24 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
-    
-
-    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);  
 }
 section#login >div#imagem{
     
-    background: url(../imagens/img05.jpg);
-   
+    background: #5f2c82 url(../imagens/img6.jpg) no-repeat;
+   display: block;
     height: 200px;
     background-size: cover;
-    background-repeat: repeat;
     background-position: center center;
 
 }
+label{
+    font-size: .8em;
+    display: none;
+}
 section#login > div#formulario{
     padding: 10px;
+    display: block;
 
 }
 section#login > div#formulario>h1{
@@ -59,4 +60,38 @@ section#login > div#formulario>h1{
 section#login > div#formulario>p{
     font-size: .8em;
 }
+form> input[type=submit]{
+    display: block;
+    margin: auto;
+    width: 97%;
+    height: 40px;
+    background-color: #49a09d ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+form> input[type=submit]:hover{
+    background-color: #295857;
+}
+form >a.botao{
+   display: block;
+   text-align: center;
+   background-color: white;
+   color: #49a09d;
+   border: 1px solid #295857;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size: .8em;
+   padding-top: 2px ;
+   margin: 4px;
+   height: 40px;
+}
+form >a.botao:hover{
+    background-color: #6ae9e5;
+}
+form> a.botao >span{
+    font-size: .8em;
+}
+
 

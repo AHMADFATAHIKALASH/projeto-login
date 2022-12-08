@@ -24,8 +24,8 @@
       background-image:linear-gradient(to top, #49a09d, #5f2c82) ;
     }
     section#login{
-        width: 75vw;
-        height: 33vh;
+        width: 70vw;
+        height: 200px;
         
     }
     section>div#imagem{
@@ -53,8 +53,9 @@
     }
     section>div#imagem{
         float: right;
-        width: 45vw;
-        height: 100vh;
+        width: 50vw;
+        height: 100%;
     }
-   
+    
+
 }
